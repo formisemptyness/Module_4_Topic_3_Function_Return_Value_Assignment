@@ -17,6 +17,7 @@ hourly_pay_rate and returns the calculated weekly pay.
 
 Include a docstring as your first line declaring what the function does.
 '''
+#Function that returns string
 def hourly_employee_input():
     '''a function that takes name as input then calls weekly_pay function stores it as salary. It then returns name
     and salary as the string name_salary.'''
@@ -25,6 +26,7 @@ def hourly_employee_input():
     name_salary = name + " " + str(salary)
     return name_salary
 
+#Function that returns total of hrs_worked times hr_rate
 def weekly_pay():
     '''a function that takes hrs_worked (int) times hr_rate (float) and stores them in total. It then returns total.
     '''
